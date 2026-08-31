@@ -1,0 +1,1231 @@
+{
+  "lecture": "Chapter 16: Carbohydrates (General, Organic, and Biochemistry, 10th Ed. - Denniston/Topping/Quirk Dorr/Caret)",
+  "topics": [
+    "Carbohydrate classification and diet basics",
+    "Monosaccharide composition and naming",
+    "Stereochemistry (chirality, enantiomers, diastereomers, meso, racemic mixtures)",
+    "D/L system and Fischer projections",
+    "Optical activity and polarimetry",
+    "Cyclic hemiacetal structures and anomers (Haworth projections)",
+    "Key biological monosaccharides (glucose, fructose, galactose, ribose, deoxyribose)",
+    "Reducing sugars and Benedict's reagent",
+    "Enediol isomerization",
+    "Disaccharides and glycosidic bonds (maltose, lactose, sucrose)",
+    "Clinical correlations (lactose intolerance, galactosemia)",
+    "Polysaccharides (starch, amylose, amylopectin, glycogen, cellulose)",
+    "Digestibility: starch vs. fiber"
+  ],
+  "outline": [
+    "1. Carbohydrate Basics: synthesized via photosynthesis; 1g=4kcal; USDA 45-65% daily calories; classification by monomer count (mono/di/oligo/poly) linked via glycosidic bonds",
+    "2. Monosaccharide Structure & Naming: composed of C,H,O with formula (CH2O)n, n=3-7; named by carbonyl type (aldose vs ketose) + carbon count (triose->heptose); combined naming e.g. aldohexose",
+    "3. Stereochemistry: chiral carbon = 4 unique groups; enantiomers = non-superimposable mirror images (optically active); diastereomers = multiple chiral centers, not mirror images; meso compound = internal plane of symmetry, optically inactive; racemic mixture = 50/50 enantiomers, optically inactive",
+    "4. D/L System: Fischer projection with most oxidized carbon on top; look at OH on the LAST (lowest-numbered from bottom) chiral carbon - right=D, left=L; optical activity measured by polarimeter, D=clockwise(dextrorotatory), L=counterclockwise(levorotatory)",
+    "5. Cyclic Structures: physiological ring form via hemiacetal formation (C5-OH attacks carbonyl carbon); creates anomeric carbon with alpha(OH below ring)/beta(OH above ring) forms; glucose=6-membered ring/anomeric C1; fructose=5-membered ring/anomeric C2 (ketose)",
+    "6. Key Monosaccharides: Glucose(aldohexose, blood sugar, insulin/glucagon regulated); Fructose(ketohexose, sweetest, fruit sugar); Galactose(aldohexose, differs from glucose only at C4-OH, milk component); Ribose/Deoxyribose(aldopentoses, differ only at C2-OH, RNA vs DNA)",
+    "7. Reducing Sugars: require free hemiacetal anomeric OH; Benedict's reagent reduces Cu2+(blue) to Cu+ as Cu2O(red-orange ppt), tests urine glucose; all monosaccharides + all disaccharides except sucrose are reducing; ketoses isomerize to aldoses via enediol intermediate",
+    "8. Disaccharides: glycosidic bond forms via condensation (loses H2O); Maltose=glucose+glucose alpha-1,4 (reducing); Lactose=galactose+glucose beta-1,4 (reducing, milk sugar, lactose intolerance from lactase deficiency); Sucrose=alpha-glucose+beta-fructose alpha-1,beta-2 (non-reducing because both anomeric carbons are used in the bond, table sugar, not synthesized by animals); Galactosemia=genetic inability to convert galactose to phosphorylated glucose",
+    "9. Polysaccharides: homopolysaccharide(one monomer type) vs heteropolysaccharide(multiple types); Starch in plants: Amylose(alpha-1,4 only, linear/helical, ~80% of starch) and Amylopectin(alpha-1,4 plus alpha-1,6 branches); Glycogen(animal storage, liver/muscle, more frequently branched than amylopectin); Cellulose(plant fiber, beta-1,4 linkages, indigestible by human enzymes, digestible by bacteria in ruminants like cows); Key distinction: starch(digestible) vs cellulose/fiber(indigestible)"
+  ],
+  "questions": [
+    {
+      "question_id": "CARB001",
+      "topic": "Carbohydrate Basics",
+      "subtopic": "Caloric content and diet",
+      "concept": "Energy yield of carbohydrates",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "16.2 Types of Carbohydrates",
+      "question": "Approximately how many kilocalories of energy does one gram of digested carbohydrate provide?",
+      "choices": {
+        "A": "2 kcal",
+        "B": "4 kcal",
+        "C": "7 kcal",
+        "D": "9 kcal"
+      },
+      "correct_answer": "B",
+      "explanation": "The professor and slides both state that 1 gram of digested carbohydrate yields about 4 kcal of energy, the same value used on nutrition labels.",
+      "choice_explanations": {
+        "A": "2 kcal is too low and does not correspond to any macronutrient's caloric value.",
+        "B": "Correct. Carbohydrates yield 4 kcal/gram, identical to protein's caloric value.",
+        "C": "7 kcal/gram is closer to the value for alcohol, not carbohydrate.",
+        "D": "9 kcal/gram is the caloric value of fat, not carbohydrate; this is a common mix-up."
+      }
+    },
+    {
+      "question_id": "CARB002",
+      "topic": "Carbohydrate Basics",
+      "subtopic": "Classification by size",
+      "concept": "Oligosaccharide monomer range",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Basic Carbohydrate Types",
+      "question": "An oligosaccharide is defined as containing how many monosaccharide units?",
+      "choices": {
+        "A": "1 unit",
+        "B": "2 units",
+        "C": "3 to 10 units",
+        "D": "More than 20 units"
+      },
+      "correct_answer": "C",
+      "explanation": "The professor explicitly stated that oligosaccharides fall between 3 and 10 monomers; beyond 10 units, a carbohydrate is classified as a polysaccharide.",
+      "choice_explanations": {
+        "A": "1 unit describes a monosaccharide, not an oligosaccharide.",
+        "B": "2 units describes a disaccharide.",
+        "C": "Correct. The professor specifically noted oligosaccharides span 3-10 monomers, though they technically fall under the polysaccharide umbrella.",
+        "D": "More than 20 units would clearly be classified as a polysaccharide, well beyond the oligosaccharide range."
+      }
+    },
+    {
+      "question_id": "CARB003",
+      "topic": "Carbohydrate Basics",
+      "subtopic": "Diet recommendations",
+      "concept": "USDA carbohydrate intake and activity level",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "16.2 Types of Carbohydrates",
+      "question": "According to the lecture, why would a sedentary office worker be advised to consume carbohydrates closer to the lower end (45%) of the USDA recommended range, while a competitive sprinter leans toward 65%?",
+      "choices": {
+        "A": "Carbohydrates are stored exclusively in muscle tissue, so only athletes benefit from eating them",
+        "B": "Carbohydrates serve as the body's fast fuel source, and higher activity levels demand more rapidly available energy",
+        "C": "Sedentary individuals cannot digest complex carbohydrates as efficiently as athletes",
+        "D": "Athletes require less protein, so the caloric difference is made up entirely by carbohydrates"
+      },
+      "correct_answer": "B",
+      "explanation": "The professor explained that carbohydrates are the body's 'fast fuel,' so someone who is moving and stressing their body more (like a sprinter) needs more of this readily available energy source than someone who is sedentary.",
+      "choice_explanations": {
+        "A": "Carbohydrates are stored in liver and muscle (as glycogen) but are also used throughout the body for energy; this claim about exclusivity is false.",
+        "B": "Correct. This directly reflects the professor's explanation that activity level determines how much 'fast fuel' the body needs.",
+        "C": "Digestive capability for complex carbs does not differ based on activity level; this was not discussed and is not physiologically accurate.",
+        "D": "Protein requirements and this specific caloric trade-off were not part of the professor's explanation for carbohydrate recommendations."
+      }
+    },
+    {
+      "question_id": "CARB004",
+      "topic": "Monosaccharide Structure",
+      "subtopic": "Basic composition",
+      "concept": "Monosaccharide elemental formula",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "16.3 Monosaccharides",
+      "question": "What is the general basic formula for an unmodified monosaccharide?",
+      "choices": {
+        "A": "(CHO)n",
+        "B": "(CH2O)n",
+        "C": "(C2H4O)n",
+        "D": "(CHO2)n"
+      },
+      "correct_answer": "B",
+      "explanation": "Monosaccharides are composed of carbon, hydrogen, and oxygen with the general formula (CH2O)n, where n is any integer from 3 to 7.",
+      "choice_explanations": {
+        "A": "(CHO)n omits a hydrogen and does not match the actual monosaccharide ratio.",
+        "B": "Correct. This is the formula explicitly given on the slide and reinforced by the professor.",
+        "C": "(C2H4O)n has an incorrect carbon-to-oxygen ratio for a basic monosaccharide unit.",
+        "D": "(CHO2)n has too much oxygen relative to carbon and hydrogen for a monosaccharide."
+      }
+    },
+    {
+      "question_id": "CARB005",
+      "topic": "Monosaccharide Structure",
+      "subtopic": "Chemical modifications",
+      "concept": "Functionalized monosaccharides",
+      "difficulty": "medium",
+      "cognitive_level": "recall",
+      "source_slide": "16.3 Monosaccharides",
+      "question": "Which of the following chemical groups can modify the basic monosaccharide structure?",
+      "choices": {
+        "A": "Amino and phosphate groups",
+        "B": "Carboxylic acid and thiol groups only",
+        "C": "Halogens exclusively",
+        "D": "Nitro and sulfonic acid groups"
+      },
+      "correct_answer": "A",
+      "explanation": "The professor and slides both specifically mention that monosaccharides are commonly functionalized with amino groups or phosphate groups (e.g., in amino sugars or sugar phosphates used in metabolism).",
+      "choice_explanations": {
+        "A": "Correct. These are the two modifications explicitly named in the lecture.",
+        "B": "Carboxylic acid and thiol modifications were not discussed in this lecture as typical monosaccharide modifications.",
+        "C": "Halogens are not a biologically relevant or discussed modification for monosaccharides.",
+        "D": "Nitro and sulfonic acid groups were not mentioned in the lecture material."
+      }
+    },
+    {
+      "question_id": "CARB006",
+      "topic": "Monosaccharide Naming",
+      "subtopic": "Aldose vs ketose",
+      "concept": "Carbonyl group classification",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Naming Monosaccharides",
+      "question": "A monosaccharide whose carbonyl carbon is bonded to two other carbon-containing groups (rather than a hydrogen) is classified as which type?",
+      "choices": {
+        "A": "An aldose",
+        "B": "A ketose",
+        "C": "A pentose",
+        "D": "An anomer"
+      },
+      "correct_answer": "B",
+      "explanation": "A ketone functional group has its carbonyl carbon connected to two R groups (carbons), and monosaccharides with this feature are called ketoses. An aldehyde carbonyl carbon is instead bonded to a hydrogen, making it an aldose.",
+      "choice_explanations": {
+        "A": "An aldose has its carbonyl carbon bonded directly to a hydrogen (aldehyde), not two carbon groups.",
+        "B": "Correct. This describes a ketone carbonyl, which defines a ketose.",
+        "C": "Pentose refers to the number of carbons (5), not the type of carbonyl group.",
+        "D": "Anomer refers to the stereoisomers formed at the new chiral center after ring closure, not the open-chain carbonyl type."
+      }
+    },
+    {
+      "question_id": "CARB007",
+      "topic": "Monosaccharide Naming",
+      "subtopic": "Carbon count nomenclature",
+      "concept": "Prefix for 6-carbon sugars",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Naming Monosaccharides",
+      "question": "What prefix is used to indicate that a monosaccharide contains six carbon atoms?",
+      "choices": {
+        "A": "Tetr-",
+        "B": "Pent-",
+        "C": "Hex-",
+        "D": "Hept-"
+      },
+      "correct_answer": "C",
+      "explanation": "The prefix 'hex-' denotes six carbons, so a six-carbon sugar combined with the 'ose' suffix is called a hexose (e.g., glucose is an aldohexose).",
+      "choice_explanations": {
+        "A": "Tetr- indicates four carbons (tetrose), not six.",
+        "B": "Pent- indicates five carbons (pentose), not six.",
+        "C": "Correct. Hex- specifically denotes six carbons as used in 'hexose.'",
+        "D": "Hept- indicates seven carbons (heptose), one more than a hexose."
+      }
+    },
+    {
+      "question_id": "CARB008",
+      "topic": "Monosaccharide Naming",
+      "subtopic": "Combined nomenclature",
+      "concept": "Applying combined naming system",
+      "difficulty": "medium",
+      "cognitive_level": "application",
+      "source_slide": "Naming Monosaccharides",
+      "question": "A monosaccharide has 5 carbons and a ketone functional group. What is the correct combined name for this general class of sugar?",
+      "choices": {
+        "A": "Aldopentose",
+        "B": "Ketopentose",
+        "C": "Aldohexose",
+        "D": "Ketohexose"
+      },
+      "correct_answer": "B",
+      "explanation": "Combining the carbonyl type (ketone = keto) with the carbon count (5 = pentose) gives 'ketopentose,' following the same pattern the professor demonstrated with aldotriose and D-glyceraldehyde.",
+      "choice_explanations": {
+        "A": "Aldopentose would require an aldehyde carbonyl, not a ketone, though it correctly reflects the 5-carbon count.",
+        "B": "Correct. Keto- reflects the ketone group and pentose reflects the 5 carbons.",
+        "C": "Aldohexose is both the wrong carbonyl type (aldehyde) and wrong carbon count (6), matching neither given feature.",
+        "D": "Ketohexose correctly identifies the ketone but incorrectly states 6 carbons instead of the given 5."
+      }
+    },
+    {
+      "question_id": "CARB009",
+      "topic": "Stereochemistry",
+      "subtopic": "Chiral carbon definition",
+      "concept": "Identifying chirality",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Chirality",
+      "question": "What defines a chiral carbon atom?",
+      "choices": {
+        "A": "A carbon bonded to four identical groups",
+        "B": "A carbon involved in a double bond",
+        "C": "A carbon bonded to four different groups",
+        "D": "A carbon located at the anomeric position"
+      },
+      "correct_answer": "C",
+      "explanation": "A chiral carbon (stereocenter) is defined as a carbon atom bonded to four different groups. This asymmetry is what allows the molecule to exist as non-superimposable mirror images.",
+      "choice_explanations": {
+        "A": "Four identical groups would make the carbon symmetric and NOT chiral, the opposite of the correct definition.",
+        "B": "Involvement in a double bond relates to planarity (relevant to ring formation) but does not define chirality.",
+        "C": "Correct. Four unique substituents is the defining feature of a chiral carbon, as emphasized with glyceraldehyde and glucose examples.",
+        "D": "The anomeric position is a specific chiral carbon created during ring closure, but not all chiral carbons are anomeric carbons."
+      }
+    },
+    {
+      "question_id": "CARB010",
+      "topic": "Stereochemistry",
+      "subtopic": "Enantiomers",
+      "concept": "Defining enantiomers",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Enantiomers",
+      "question": "Enantiomers are best described as:",
+      "choices": {
+        "A": "Molecules with identical physical and chemical properties in every situation",
+        "B": "Non-superimposable mirror image molecules",
+        "C": "Molecules that share connectivity but differ at only one of several chiral centers",
+        "D": "Molecules with an internal plane of symmetry"
+      },
+      "correct_answer": "B",
+      "explanation": "Enantiomers are defined as non-superimposable mirror images of each other, arising from a chiral carbon, much like left and right hands.",
+      "choice_explanations": {
+        "A": "Enantiomers actually differ in one key property: they rotate plane-polarized light in opposite directions, so they are not identical in every situation.",
+        "B": "Correct. This is the textbook and professor's exact definition, reinforced by the hand-mirror analogy.",
+        "C": "This describes diastereomers, not enantiomers -- diastereomers differ at some but not all chiral centers and are not mirror images.",
+        "D": "An internal plane of symmetry describes a meso compound, which is actually achiral, not an enantiomer pair."
+      }
+    },
+    {
+      "question_id": "CARB011",
+      "topic": "Stereochemistry",
+      "subtopic": "Diastereomers vs enantiomers",
+      "concept": "Distinguishing stereoisomer types",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Compounds with Chiral Centers",
+      "question": "D-glucose has hydroxyl groups arranged right, left, right, right at its four chiral centers. A sugar with hydroxyls arranged right, right, right, right would be classified as glucose's:",
+      "choices": {
+        "A": "Enantiomer, because both are D-sugars",
+        "B": "Anomer, because they differ at one carbon",
+        "C": "Diastereomer, because they share connectivity but are not exact mirror images",
+        "D": "Identical structure, since three of the four positions match"
+      },
+      "correct_answer": "C",
+      "explanation": "The professor used this exact example: changing some (but not all) hydroxyl orientations relative to glucose (which is right, left, right, right) produces a diastereomer -- same connectivity, different spatial arrangement, but not a full mirror image. The full mirror image (left, right, left, left) would be the enantiomer.",
+      "choice_explanations": {
+        "A": "The true enantiomer of glucose requires flipping ALL chiral centers (left, right, left, left), not just some of them.",
+        "B": "Anomers differ only at the newly formed anomeric carbon after ring closure, not at multiple chiral centers in the open chain.",
+        "C": "Correct. Differing at some but not all chiral centers, without being a complete mirror image, is the definition of diastereomers.",
+        "D": "Even one differing chiral center orientation creates a distinct stereoisomer with different physical/chemical properties, so this is not identical to glucose."
+      }
+    },
+    {
+      "question_id": "CARB012",
+      "topic": "Stereochemistry",
+      "subtopic": "Meso compounds",
+      "concept": "Optical inactivity despite chirality",
+      "difficulty": "hard",
+      "cognitive_level": "understanding",
+      "source_slide": "Compounds with Chiral Centers",
+      "question": "A compound has two chiral carbons but is found to be optically inactive despite not being part of a racemic mixture. What structural feature most likely explains this?",
+      "choices": {
+        "A": "The compound has an internal plane of symmetry (a meso compound)",
+        "B": "The compound is actually a ketose rather than an aldose",
+        "C": "The compound exists exclusively in its open-chain form",
+        "D": "The compound has an odd number of total carbons"
+      },
+      "correct_answer": "A",
+      "explanation": "A meso compound has two or more chiral centers but also possesses an internal plane of symmetry, which causes the optical rotation contributions from each half of the molecule to cancel out internally, making the whole molecule optically inactive even though it is not a 50/50 mixture of two different molecules.",
+      "choice_explanations": {
+        "A": "Correct. An internal plane of symmetry is specifically what defines a meso compound and explains optical inactivity despite the presence of chiral centers.",
+        "B": "Being a ketose vs. aldose affects the carbonyl type and ring size but has no inherent bearing on optical activity.",
+        "C": "Existing in open-chain form does not eliminate optical activity; open-chain chiral molecules are still optically active.",
+        "D": "The total number of carbons (odd or even) is unrelated to whether a molecule has internal symmetry."
+      }
+    },
+    {
+      "question_id": "CARB013",
+      "topic": "Stereochemistry",
+      "subtopic": "Racemic mixtures",
+      "concept": "Why racemic mixtures are optically inactive",
+      "difficulty": "medium",
+      "cognitive_level": "mechanism",
+      "source_slide": "Compounds with Chiral Centers",
+      "question": "A chemist prepares a sample that is exactly 50% D-glyceraldehyde and 50% L-glyceraldehyde. What will happen when this sample is placed in a polarimeter?",
+      "choices": {
+        "A": "The light will rotate strongly clockwise because D-sugars dominate biological systems",
+        "B": "The light will not appear to rotate because the two enantiomers' rotations cancel each other out",
+        "C": "The light will rotate at double the normal degree because both isomers are optically active",
+        "D": "The polarimeter will fail to detect any light passing through the sample"
+      },
+      "correct_answer": "B",
+      "explanation": "Since D and L enantiomers rotate plane-polarized light by the exact same number of degrees but in opposite directions, an exact 50-50 (racemic) mixture will show no net rotation -- the individual rotations cancel out even though each molecule is individually chiral.",
+      "choice_explanations": {
+        "A": "Biological prevalence of D-sugars has no bearing on this specific 50/50 laboratory mixture; the two isomers are present in equal amounts here.",
+        "B": "Correct. This directly reflects the principle that racemic mixtures are optically inactive due to canceling rotations.",
+        "C": "The rotations don't add together; they are in opposite directions, so they cancel rather than compound.",
+        "D": "Light still passes through the polarized sample tube; the issue is that the net rotation of the plane is zero, not that light fails to pass at all."
+      }
+    },
+    {
+      "question_id": "CARB014",
+      "topic": "Stereochemistry",
+      "subtopic": "D/L system",
+      "concept": "Determining D vs L using Fischer projections",
+      "difficulty": "medium",
+      "cognitive_level": "application",
+      "source_slide": "The D- and L-System",
+      "question": "When drawing a monosaccharide in a Fischer projection to determine if it is D or L, which chiral carbon's hydroxyl orientation should be examined?",
+      "choices": {
+        "A": "The chiral carbon closest to the most oxidized end (top)",
+        "B": "The chiral carbon farthest from the most oxidized end (bottom-most chiral carbon)",
+        "C": "Any chiral carbon, since they all give the same result",
+        "D": "The anomeric carbon after ring closure"
+      },
+      "correct_answer": "B",
+      "explanation": "The rule taught in lecture is to place the most oxidized carbon at the top of the Fischer projection, then look at the LAST (lowest, farthest from the top) chiral carbon: if its OH is on the right, the sugar is D; if on the left, it is L.",
+      "choice_explanations": {
+        "A": "The carbon closest to the top is the carbonyl carbon (the reference point for orientation), not the carbon examined for D/L assignment.",
+        "B": "Correct. The professor repeated this rule multiple times: look at the chiral carbon farthest from the most oxidized end.",
+        "C": "Different chiral carbons can have different orientations (as seen in glucose's four chiral centers), so only the specific lowest chiral carbon determines D/L -- not just any of them.",
+        "D": "The anomeric carbon forms only after ring closure and determines alpha/beta status, not the original D/L classification, which is fixed before ring closure."
+      }
+    },
+    {
+      "question_id": "CARB015",
+      "topic": "Stereochemistry",
+      "subtopic": "Optical activity",
+      "concept": "Dextrorotatory vs levorotatory",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "The Relationship Between Molecular Structure and Optical Activity",
+      "question": "An enantiomer that rotates plane-polarized light in a clockwise direction is referred to as which of the following?",
+      "choices": {
+        "A": "Levorotatory (L)",
+        "B": "Racemic",
+        "C": "Dextrorotatory (D)",
+        "D": "Meso"
+      },
+      "correct_answer": "C",
+      "explanation": "An enantiomer that rotates light clockwise is called dextrorotatory, abbreviated D. Its mirror-image counterpart, which rotates light counterclockwise, is called levorotatory (L).",
+      "choice_explanations": {
+        "A": "Levorotatory refers to counterclockwise rotation, the opposite of what's described in the question.",
+        "B": "Racemic refers to an equal mixture of both enantiomers showing no net rotation, not a single enantiomer's rotation direction.",
+        "C": "Correct. Dextro- comes from the Latin for 'right,' matching the clockwise rotation and the D designation.",
+        "D": "Meso compounds are optically inactive altogether and do not rotate light in either direction."
+      }
+    },
+    {
+      "question_id": "CARB016",
+      "topic": "Stereochemistry",
+      "subtopic": "Glyceraldehyde chirality",
+      "concept": "Simplest chiral carbohydrate",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Chirality of Glyceraldehyde",
+      "question": "Why is glyceraldehyde used as the introductory example for teaching the D/L classification system?",
+      "choices": {
+        "A": "It has no chiral carbons, making classification straightforward",
+        "B": "It has exactly one chiral carbon, so there is no ambiguity about which carbon to examine",
+        "C": "It is the only monosaccharide that is a ketose",
+        "D": "It has four chiral carbons, providing the most complete example"
+      },
+      "correct_answer": "B",
+      "explanation": "The professor specifically chose glyceraldehyde because, as the simplest carbohydrate, it has only one chiral carbon. This removes the complexity of deciding which chiral carbon to examine, making it an easy entry point before tackling molecules like glucose that have four chiral carbons.",
+      "choice_explanations": {
+        "A": "Glyceraldehyde does have one chiral carbon; if it had none, it could not be classified as D or L at all.",
+        "B": "Correct. Having only one chiral carbon eliminates the complexity of identifying which carbon to examine, which is exactly why the professor used it as the teaching example.",
+        "C": "Glyceraldehyde is an aldose (it has an aldehyde group), not a ketose.",
+        "D": "Glucose, not glyceraldehyde, is the example used with four chiral carbons; glyceraldehyde's simplicity comes from having only one."
+      }
+    },
+    {
+      "question_id": "CARB017",
+      "topic": "Cyclic Structures",
+      "subtopic": "Hemiacetal ring formation",
+      "concept": "Mechanism of ring closure in glucose",
+      "difficulty": "medium",
+      "cognitive_level": "mechanism",
+      "source_slide": "Cyclic Form of Glucose",
+      "question": "During the cyclization of D-glucose into its ring form, which two atoms/groups react with each other to close the ring?",
+      "choices": {
+        "A": "The C1 hydroxyl group and the C6 hydroxyl group",
+        "B": "The C5 hydroxyl group and the C1 carbonyl carbon",
+        "C": "The C2 hydroxyl group and the C6 carbonyl carbon",
+        "D": "Two separate glucose molecules' anomeric carbons"
+      },
+      "correct_answer": "B",
+      "explanation": "In glucose's ring closure, the hydroxyl group on carbon 5 attacks the carbonyl carbon (C1) to form the cyclic hemiacetal. The oxygen from C5 becomes the ring oxygen, while the carbonyl oxygen becomes the new anomeric hydroxyl group at C1.",
+      "choice_explanations": {
+        "A": "C1 does not have a hydroxyl group prior to ring closure -- it is the carbonyl carbon, and C6 is not involved in ring closure for glucose.",
+        "B": "Correct. This is precisely the mechanism the professor described: the C5-OH attacks the C1 carbonyl to close the six-membered ring.",
+        "C": "C2 and C6 are not the atoms involved in glucose's specific ring-closing reaction; C6 remains as the exocyclic CH2OH group.",
+        "D": "This describes an intermolecular reaction between two separate sugar molecules (like disaccharide formation), not the intramolecular ring closure of a single glucose molecule."
+      }
+    },
+    {
+      "question_id": "CARB018",
+      "topic": "Cyclic Structures",
+      "subtopic": "Anomers",
+      "concept": "Alpha vs beta anomer definition",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Cyclic Form of Glucose",
+      "question": "In a Haworth projection, if the anomeric hydroxyl group points below the ring, the sugar is classified as which anomer?",
+      "choices": {
+        "A": "Beta",
+        "B": "D",
+        "C": "Alpha",
+        "D": "L"
+      },
+      "correct_answer": "C",
+      "explanation": "The professor's rule was direct: if the anomeric hydroxyl is below the ring, it is the alpha anomer; if above the ring, it is the beta anomer.",
+      "choice_explanations": {
+        "A": "Beta describes the anomeric OH pointing ABOVE the ring, the opposite of what's described.",
+        "B": "D/L classification is unrelated to anomeric orientation -- it was already fixed by the C5 hydroxyl orientation before ring closure.",
+        "C": "Correct. Below the ring = alpha, exactly as stated in lecture.",
+        "D": "L classification, like D, refers to the pre-cyclization stereocenter, not the post-cyclization anomeric position."
+      }
+    },
+    {
+      "question_id": "CARB019",
+      "topic": "Cyclic Structures",
+      "subtopic": "Fructose ring size",
+      "concept": "Ketose ring formation differences",
+      "difficulty": "hard",
+      "cognitive_level": "mechanism",
+      "source_slide": "Fructose",
+      "question": "Why does fructose form a 5-membered ring while glucose forms a 6-membered ring during cyclization?",
+      "choices": {
+        "A": "Fructose lacks a C5 hydroxyl group entirely",
+        "B": "Fructose's C5 hydroxyl attacks the carbonyl at C2 (since fructose's carbonyl is a ketone at C2), producing a smaller ring than glucose's C5-to-C1 closure",
+        "C": "Fructose has one fewer carbon atom than glucose",
+        "D": "Fructose's ring size is determined randomly and varies between molecules"
+      },
+      "correct_answer": "B",
+      "explanation": "Because fructose is a ketose, its carbonyl group is located at carbon 2 rather than carbon 1 (as in aldoses like glucose). The C5-OH still attacks the carbonyl carbon, but since that carbonyl is at C2 instead of C1, the resulting ring spans fewer atoms, producing a 5-membered ring instead of glucose's 6-membered ring.",
+      "choice_explanations": {
+        "A": "Fructose does have a C5 hydroxyl group -- this is exactly the group that attacks to form the ring, just as in glucose.",
+        "B": "Correct. The shift in carbonyl position (C2 for a ketose vs. C1 for an aldose) is precisely why the ring sizes differ, as explained in lecture.",
+        "C": "Both fructose and glucose are hexoses with six carbons; the ring size difference comes from carbonyl position, not carbon count.",
+        "D": "Ring size formation is not random; it is dictated by the fixed position of the carbonyl group relative to the attacking hydroxyl."
+      }
+    },
+    {
+      "question_id": "CARB020",
+      "topic": "Cyclic Structures",
+      "subtopic": "Hemiacetal vs acetal",
+      "concept": "Structural definition of hemiacetal",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Naming Monosaccharides / Cyclic Form of Glucose",
+      "question": "What structural feature distinguishes a hemiacetal from a full acetal at the anomeric carbon?",
+      "choices": {
+        "A": "A hemiacetal carbon is bonded to one oxygen-R group and one free hydroxyl group; an acetal carbon is bonded to two oxygen-R groups",
+        "B": "A hemiacetal has no oxygen atoms attached to the carbon at all",
+        "C": "A hemiacetal is only found in ketoses, while an acetal is only found in aldoses",
+        "D": "There is no structural difference; the terms are interchangeable"
+      },
+      "correct_answer": "A",
+      "explanation": "A hemiacetal carbon has one bond to an ether-type oxygen (connected to another carbon/ring) and one bond to a free hydroxyl group. If that free hydroxyl is replaced by another OR group (as happens when a glycosidic bond forms), it becomes a full acetal. This is exactly why monosaccharides (hemiacetals, free OH) act as reducing sugars, while glycosidically-bonded anomeric carbons within an acetal (like sucrose's fructose-derived carbon) do not.",
+      "choice_explanations": {
+        "A": "Correct. This distinction is why the free anomeric OH of a hemiacetal enables reducing sugar activity, while an acetal's lack of a free OH does not.",
+        "B": "Both hemiacetals and acetals have oxygen atoms attached to the carbon in question; the difference is in how many R-groups are attached to those oxygens, not the total absence of oxygen.",
+        "C": "This distinction is not based on aldose vs ketose classification; both aldoses and ketoses can form hemiacetals or be converted into acetals depending on bonding.",
+        "D": "The terms are not interchangeable -- this distinction directly explains reducing sugar behavior, an important testable concept."
+      }
+    },
+    {
+      "question_id": "CARB021",
+      "topic": "Key Monosaccharides",
+      "subtopic": "Glucose identity",
+      "concept": "Alternative names for glucose",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "16.5 Biological Monosaccharides",
+      "question": "Which two alternative names are commonly used to refer to glucose?",
+      "choices": {
+        "A": "Fruit sugar and levulose",
+        "B": "Malt sugar and cane sugar",
+        "C": "Dextrose and blood sugar",
+        "D": "Milk sugar and table sugar"
+      },
+      "correct_answer": "C",
+      "explanation": "The lecture explicitly states that glucose has two other common names: dextrose and blood sugar. Checking blood sugar level is literally measuring blood glucose concentration.",
+      "choice_explanations": {
+        "A": "Fruit sugar and levulose are alternative names for fructose, not glucose.",
+        "B": "Malt sugar refers to maltose, and cane sugar refers to sucrose -- both disaccharides, not glucose.",
+        "C": "Correct. These are the exact two names given in lecture for glucose.",
+        "D": "Milk sugar refers to lactose, and table sugar refers to sucrose -- neither is a name for glucose."
+      }
+    },
+    {
+      "question_id": "CARB022",
+      "topic": "Key Monosaccharides",
+      "subtopic": "Blood glucose regulation",
+      "concept": "Hormonal control of glucose",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "16.5 Biological Monosaccharides",
+      "question": "Which two hormones regulate the concentration of glucose in the blood, according to the lecture?",
+      "choices": {
+        "A": "Estrogen and testosterone",
+        "B": "Insulin and glucagon",
+        "C": "Cortisol and adrenaline",
+        "D": "Thyroxine and calcitonin"
+      },
+      "correct_answer": "B",
+      "explanation": "The lecture states that blood glucose concentration is regulated by insulin and glucagon, with the professor noting this topic will be covered in greater depth during carbohydrate metabolism later in the semester.",
+      "choice_explanations": {
+        "A": "Estrogen and testosterone are sex hormones unrelated to glucose regulation and were not mentioned in this lecture.",
+        "B": "Correct. Insulin and glucagon are the two hormones explicitly named as regulating blood glucose.",
+        "C": "Cortisol and adrenaline can influence blood sugar in broader physiology, but they were not the hormones named in this specific lecture.",
+        "D": "Thyroxine and calcitonin relate to metabolic rate and calcium regulation respectively, not glucose regulation, and were not mentioned."
+      }
+    },
+    {
+      "question_id": "CARB023",
+      "topic": "Key Monosaccharides",
+      "subtopic": "Fructose identity",
+      "concept": "Fructose classification and sources",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Fructose",
+      "question": "Fructose is classified as which type of sugar, and what property makes it notable among monosaccharides?",
+      "choices": {
+        "A": "An aldopentose; it is the least sweet sugar",
+        "B": "A ketohexose; it is the sweetest of the common sugars",
+        "C": "An aldohexose; it is found only in dairy products",
+        "D": "A ketopentose; it cannot be digested by humans"
+      },
+      "correct_answer": "B",
+      "explanation": "Fructose is a ketohexose (six carbons, ketone carbonyl) and is specifically noted as the sweetest sugar, commonly found in fruits, honey, and corn syrup.",
+      "choice_explanations": {
+        "A": "Fructose is a hexose (6 carbons) with a ketone group, not an aldehyde-containing pentose.",
+        "B": "Correct. Both the classification (ketohexose) and the 'sweetest sugar' distinction were explicitly stated in lecture.",
+        "C": "Fructose is a ketose, not an aldose, and it is found in fruits/honey/corn syrup, not primarily dairy (galactose/lactose relate to dairy).",
+        "D": "Fructose is digestible by humans; the indigestible sugar polymer discussed in lecture was cellulose, not fructose."
+      }
+    },
+    {
+      "question_id": "CARB024",
+      "topic": "Key Monosaccharides",
+      "subtopic": "Galactose vs glucose",
+      "concept": "Structural distinction between glucose and galactose",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Galactose Orientation",
+      "question": "Structurally, how does galactose differ from glucose?",
+      "choices": {
+        "A": "Galactose is a ketose while glucose is an aldose",
+        "B": "Galactose has one fewer carbon than glucose",
+        "C": "Galactose differs from glucose only in the orientation of the hydroxyl group at carbon 4",
+        "D": "Galactose lacks a hydroxyl group at the anomeric carbon"
+      },
+      "correct_answer": "C",
+      "explanation": "The professor emphasized that galactose and glucose are nearly identical structures, differing only in the spatial orientation of the C4 hydroxyl group -- in glucose it points below the ring, while in galactose it points above the ring.",
+      "choice_explanations": {
+        "A": "Both galactose and glucose are aldohexoses (aldoses); the ketose/aldose distinction does not separate them.",
+        "B": "Both sugars are hexoses with six carbons; carbon count is identical between them.",
+        "C": "Correct. This is precisely the single structural difference the professor highlighted between these two sugars.",
+        "D": "Both galactose and glucose retain an anomeric hydroxyl group after cyclization (in either alpha or beta form); this is not the distinguishing feature."
+      }
+    },
+    {
+      "question_id": "CARB025",
+      "topic": "Key Monosaccharides",
+      "subtopic": "Ribose vs deoxyribose",
+      "concept": "Structural basis for RNA vs DNA sugars",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Ribose and Deoxyribose, Five-Carbon Sugars",
+      "question": "What is the single structural difference between ribose and deoxyribose?",
+      "choices": {
+        "A": "Deoxyribose has an extra hydroxyl group at carbon 3",
+        "B": "Deoxyribose lacks the hydroxyl group at carbon 2 that is present in ribose",
+        "C": "Ribose is a six-carbon sugar while deoxyribose is a five-carbon sugar",
+        "D": "Deoxyribose is a ketose while ribose is an aldose"
+      },
+      "correct_answer": "B",
+      "explanation": "Ribose and deoxyribose are both aldopentoses that differ only in the presence or absence of the hydroxyl group at carbon 2 -- deoxyribose lacks this OH group ('deoxy' meaning without oxygen), which is why DNA (built from deoxyribose) is more chemically stable than RNA (built from ribose).",
+      "choice_explanations": {
+        "A": "The difference occurs at carbon 2, not carbon 3, and deoxyribose lacks a group rather than gaining one.",
+        "B": "Correct. This exact distinction was stated in lecture and explains the naming convention ('2-deoxyribose').",
+        "C": "Both ribose and deoxyribose are five-carbon sugars (aldopentoses); they do not differ in carbon count.",
+        "D": "Both ribose and deoxyribose are aldoses (aldopentoses); neither is a ketose."
+      }
+    },
+    {
+      "question_id": "CARB026",
+      "topic": "Key Monosaccharides",
+      "subtopic": "Ribose vs deoxyribose",
+      "concept": "Biological role connection",
+      "difficulty": "medium",
+      "cognitive_level": "application",
+      "source_slide": "Ribose and Deoxyribose, Five-Carbon Sugars",
+      "question": "A biochemist is analyzing a nucleic acid sample and finds that its sugar backbone contains a hydroxyl group at carbon 2 of each sugar unit. Based on this finding, the nucleic acid is most likely:",
+      "choices": {
+        "A": "DNA, because DNA sugars retain the C2 hydroxyl",
+        "B": "RNA, because RNA's ribose sugar retains the C2 hydroxyl",
+        "C": "Neither, since nucleic acids do not contain hydroxyl groups",
+        "D": "Both DNA and RNA equally, since they share identical sugar structures"
+      },
+      "correct_answer": "B",
+      "explanation": "Since ribose (found in RNA) retains the C2 hydroxyl group while deoxyribose (found in DNA) lacks it, finding an intact C2-OH in the sugar backbone indicates the nucleic acid is RNA.",
+      "choice_explanations": {
+        "A": "DNA's sugar is deoxyribose, which specifically lacks the C2 hydroxyl group -- so this evidence points away from DNA.",
+        "B": "Correct. The presence of the C2-OH is diagnostic of ribose, and therefore of RNA.",
+        "C": "Nucleic acid sugars do contain hydroxyl groups at several positions; this claim is factually incorrect.",
+        "D": "DNA and RNA sugars are NOT identical -- they differ specifically at C2, which is why this evidence can distinguish between them."
+      }
+    },
+    {
+      "question_id": "CARB027",
+      "topic": "Reducing Sugars",
+      "subtopic": "Benedict's reagent",
+      "concept": "Chemistry of the Benedict's test",
+      "difficulty": "medium",
+      "cognitive_level": "mechanism",
+      "source_slide": "Benedict's Reagent",
+      "question": "What chemical change occurs during a positive Benedict's test for a reducing sugar?",
+      "choices": {
+        "A": "Cu2+ ions are oxidized to Cu3+, forming a blue precipitate",
+        "B": "Cu2+ ions are reduced to Cu+, forming a red-orange precipitate of Cu2O",
+        "C": "The sugar is oxidized to CO2 and water, with no color change",
+        "D": "Cu+ ions are reduced to elemental copper metal, forming a silver precipitate"
+      },
+      "correct_answer": "B",
+      "explanation": "In a positive Benedict's test, the reducing sugar donates electrons to reduce Cu2+ (blue in solution) to Cu+, which precipitates out as reddish-orange Cu2O. The blue color fades as this reaction occurs.",
+      "choice_explanations": {
+        "A": "This describes oxidation of copper, but Benedict's test involves reduction of Cu2+ to Cu+, the opposite direction, and does not produce a blue precipitate.",
+        "B": "Correct. This matches the mechanism and color change (blue fading, red-orange Cu2O precipitate forming) described in lecture.",
+        "C": "The sugar is oxidized, but a distinct visible color change (blue to red-orange) does occur, not 'no color change.'",
+        "D": "The product is Cu2O (copper(I) oxide), not elemental copper metal, and it appears red-orange, not silver."
+      }
+    },
+    {
+      "question_id": "CARB028",
+      "topic": "Reducing Sugars",
+      "subtopic": "Structural requirement",
+      "concept": "Requirement for reducing sugar activity",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Reducing Sugars",
+      "question": "What structural feature must a carbohydrate have in order to act as a reducing sugar?",
+      "choices": {
+        "A": "It must be a polysaccharide with multiple branch points",
+        "B": "It must contain a free (hemiacetal) hydroxyl group at an anomeric carbon",
+        "C": "It must be in its open-chain (non-cyclic) form at all times",
+        "D": "It must contain a phosphate group"
+      },
+      "correct_answer": "B",
+      "explanation": "A sugar must have a free hemiacetal hydroxyl group (an unreacted anomeric OH) to act as a reducing sugar, since this is the group that reduces Cu2+ in Benedict's reagent. If the anomeric carbon is tied up in a full acetal (as in a glycosidic bond using that carbon), it cannot reduce Cu2+.",
+      "choice_explanations": {
+        "A": "Being a large polysaccharide is unrelated to reducing capability -- what matters is whether a free anomeric OH exists, and most polysaccharides only have one free end.",
+        "B": "Correct. This is the exact structural requirement described in lecture -- a free hemiacetal group at the anomeric carbon.",
+        "C": "Sugars can be reducing sugars while existing predominantly in cyclic form, as long as the ring's anomeric OH remains free (unreacted).",
+        "D": "Phosphate groups are unrelated to reducing sugar chemistry; this is a modification seen in metabolic intermediates, not a requirement for the Benedict's reaction."
+      }
+    },
+    {
+      "question_id": "CARB029",
+      "topic": "Reducing Sugars",
+      "subtopic": "Sucrose exception",
+      "concept": "Why sucrose is non-reducing",
+      "difficulty": "hard",
+      "cognitive_level": "mechanism",
+      "source_slide": "Sucrose",
+      "question": "Why is sucrose the only common disaccharide that is a non-reducing sugar?",
+      "choices": {
+        "A": "Sucrose contains no hydroxyl groups anywhere in its structure",
+        "B": "The glycosidic bond in sucrose forms between the anomeric carbons of BOTH monosaccharides, leaving no free anomeric hydroxyl",
+        "C": "Sucrose is too large a molecule for Benedict's reagent to interact with",
+        "D": "Sucrose lacks a ring structure entirely"
+      },
+      "correct_answer": "B",
+      "explanation": "In maltose and lactose, only one monosaccharide's anomeric carbon is used in the glycosidic bond, leaving the other sugar's anomeric OH free to act as a reducing agent. In sucrose, however, the bond forms between glucose's C1 (anomeric) and fructose's C2 (also anomeric, since fructose is a ketose), using up BOTH anomeric hydroxyls and leaving no free hemiacetal group -- making sucrose non-reducing.",
+      "choice_explanations": {
+        "A": "Sucrose contains multiple hydroxyl groups on its glucose and fructose rings; the issue is specifically the loss of the anomeric (hemiacetal) hydroxyls, not all hydroxyls.",
+        "B": "Correct. This directly explains the alpha-1,beta-2 linkage's unique consequence: both anomeric carbons are consumed in the bond, unlike maltose (alpha-1,4) or lactose (beta-1,4).",
+        "C": "Molecular size is not the limiting factor in Benedict's test reactivity; smaller reducing polysaccharide fragments can also react, so size alone doesn't explain sucrose's behavior.",
+        "D": "Sucrose does have ring structures for both its glucose and fructose components; the absence of a free anomeric OH, not the absence of rings, explains its non-reducing nature."
+      }
+    },
+    {
+      "question_id": "CARB030",
+      "topic": "Reducing Sugars",
+      "subtopic": "Enediol isomerization",
+      "concept": "Ketose-aldose interconversion",
+      "difficulty": "hard",
+      "cognitive_level": "mechanism",
+      "source_slide": "Reducing Sugars",
+      "question": "Through what type of intermediate can a ketose like fructose isomerize into an aldose like glucose?",
+      "choices": {
+        "A": "A hemiacetal intermediate",
+        "B": "An enediol intermediate",
+        "C": "A glycosidic intermediate",
+        "D": "An anomeric intermediate"
+      },
+      "correct_answer": "B",
+      "explanation": "Ketoses can isomerize to aldoses (and vice versa) through an enediol intermediate -- a structure containing a carbon-carbon double bond (ene) with hydroxyl groups (diol) on each of those carbons, which allows the carbonyl position to effectively shift along the chain.",
+      "choice_explanations": {
+        "A": "A hemiacetal describes the cyclic ring structure formed during cyclization, not the open-chain isomerization mechanism between ketose and aldose forms.",
+        "B": "Correct. This is the exact term used in lecture: 'ene' for the double bond, 'diol' for the two hydroxyl groups, describing the intermediate in this isomerization.",
+        "C": "Glycosidic linkages connect two separate monosaccharides together; they are unrelated to a single sugar's internal isomerization.",
+        "D": "Anomeric refers to the stereochemistry at the ring-closure carbon, not to the open-chain tautomerization mechanism between ketose and aldose forms."
+      }
+    },
+    {
+      "question_id": "CARB031",
+      "topic": "Disaccharides",
+      "subtopic": "Glycosidic bond formation",
+      "concept": "Condensation reaction",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "16.6 Biologically Important Disaccharides",
+      "question": "What type of reaction occurs when two monosaccharides link together to form a glycosidic bond?",
+      "choices": {
+        "A": "A hydrolysis reaction that adds a water molecule",
+        "B": "A condensation reaction that releases a water molecule",
+        "C": "An oxidation-reduction reaction with no water involvement",
+        "D": "A substitution reaction that releases carbon dioxide"
+      },
+      "correct_answer": "B",
+      "explanation": "Glycosidic bonds form through a condensation reaction, in which a molecule of water is lost as the anomeric hydroxyl of one sugar reacts with a hydroxyl group of another sugar or alcohol.",
+      "choice_explanations": {
+        "A": "Hydrolysis is the reverse reaction (breaking a glycosidic bond by ADDING water), used during digestion, not during bond formation.",
+        "B": "Correct. Bond formation is a condensation (dehydration synthesis) reaction, releasing H2O, exactly as shown in lecture diagrams.",
+        "C": "This is not a redox reaction; it is a condensation reaction involving the loss of water, not electron transfer.",
+        "D": "No carbon dioxide is released in glycosidic bond formation; only water is lost."
+      }
+    },
+    {
+      "question_id": "CARB032",
+      "topic": "Disaccharides",
+      "subtopic": "Maltose",
+      "concept": "Maltose composition and linkage",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Maltose",
+      "question": "Maltose is formed by linking which two monosaccharides, and through what linkage?",
+      "choices": {
+        "A": "Glucose and fructose, alpha-1,2",
+        "B": "Two glucose molecules, alpha-1,4",
+        "C": "Glucose and galactose, beta-1,4",
+        "D": "Two fructose molecules, beta-1,4"
+      },
+      "correct_answer": "B",
+      "explanation": "Maltose (malt sugar) is formed by linking two D-glucose molecules through an alpha-1,4 glycosidic bond, and it forms as an intermediate during starch hydrolysis.",
+      "choice_explanations": {
+        "A": "Glucose and fructose linked alpha-1,beta-2 describes sucrose, not maltose.",
+        "B": "Correct. Two glucose units joined alpha-1,4 is the exact definition of maltose given in lecture.",
+        "C": "Glucose and galactose linked beta-1,4 describes lactose, not maltose.",
+        "D": "Maltose is made of two glucose units, not two fructose units, and uses an alpha (not beta) linkage."
+      }
+    },
+    {
+      "question_id": "CARB033",
+      "topic": "Disaccharides",
+      "subtopic": "Glycosidic bond naming",
+      "concept": "Why beta-maltose has an alpha-1,4 linkage",
+      "difficulty": "hard",
+      "cognitive_level": "understanding",
+      "source_slide": "Maltose",
+      "question": "A student is confused because a molecule is called 'beta-maltose' yet its glycosidic bond is described as 'alpha-1,4.' How can both be true simultaneously?",
+      "choices": {
+        "A": "This is a typo in the textbook; only one label can be correct",
+        "B": "The alpha-1,4 designation refers to the linkage formed at the FIRST glucose's anomeric carbon (used to build the bond), while the beta designation refers to the SECOND glucose's still-free anomeric carbon (which is not part of the linkage)",
+        "C": "Alpha and beta are interchangeable terms for the same molecular feature",
+        "D": "The alpha-1,4 refers to the overall molecule's shape, unrelated to any specific carbon"
+      },
+      "correct_answer": "B",
+      "explanation": "The professor specifically addressed this confusion: the 'alpha-1,4' in the bond name refers to the anomeric carbon (C1) of the FIRST glucose that reacted to form the linkage to C4 of the second glucose. The 'beta' in 'beta-maltose,' however, refers to the orientation of the free (still hemiacetal) anomeric hydroxyl on the SECOND glucose, which is a separate carbon not involved in the glycosidic bond itself.",
+      "choice_explanations": {
+        "A": "This is not a typo -- both labels are accurate and refer to two different anomeric carbons within the same molecule, exactly as the professor clarified.",
+        "B": "Correct. This precisely matches the professor's explanation of why students often get confused by this naming convention.",
+        "C": "Alpha and beta are not interchangeable; they represent opposite orientations of an anomeric hydroxyl group and refer to two distinct carbons in this molecule.",
+        "D": "The alpha-1,4 designation refers specifically to carbons 1 and 4 involved in the bond, not the molecule's overall shape."
+      }
+    },
+    {
+      "question_id": "CARB034",
+      "topic": "Disaccharides",
+      "subtopic": "Lactose",
+      "concept": "Lactose composition and clinical relevance",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Lactose",
+      "question": "A patient reports digestive discomfort after consuming dairy products. Based on the lecture, what is the most likely biochemical explanation?",
+      "choices": {
+        "A": "The patient's body lacks lactase, the enzyme needed to hydrolyze the beta-1,4 glycosidic bond in lactose",
+        "B": "The patient's body produces excess Benedict's reagent, which reacts abnormally with dairy sugars",
+        "C": "The patient cannot digest sucrose, which is found exclusively in dairy products",
+        "D": "The patient has a genetic inability to synthesize glucose from galactose entirely"
+      },
+      "correct_answer": "A",
+      "explanation": "Lactose intolerance results from a deficiency in lactase, the enzyme required to hydrolyze the beta-1,4 glycosidic bond linking galactose to glucose in lactose. Without this enzyme, lactose cannot be broken down and absorbed properly, leading to digestive issues.",
+      "choice_explanations": {
+        "A": "Correct. This is exactly the mechanism described in lecture for lactose intolerance.",
+        "B": "Benedict's reagent is a laboratory reagent used for testing, not something naturally produced by the human body; this option is not physiologically relevant.",
+        "C": "Sucrose is not found exclusively in dairy products (it's table/cane sugar), and dairy discomfort is specifically linked to lactose, not sucrose.",
+        "D": "This describes galactosemia, a different and much rarer genetic condition involving the enzymatic conversion of galactose to a phosphorylated glucose, not the common lactase deficiency causing lactose intolerance."
+      }
+    },
+    {
+      "question_id": "CARB035",
+      "topic": "Disaccharides",
+      "subtopic": "Galactosemia",
+      "concept": "Distinguishing galactosemia from lactose intolerance",
+      "difficulty": "hard",
+      "cognitive_level": "application",
+      "source_slide": "Galactosemia",
+      "question": "How does galactosemia differ from lactose intolerance in terms of the underlying biochemical defect?",
+      "choices": {
+        "A": "They are the same condition with two different names",
+        "B": "Galactosemia involves a missing enzyme needed to convert galactose into a phosphorylated glucose molecule, while lactose intolerance involves a missing enzyme (lactase) needed to break the glycosidic bond between galactose and glucose",
+        "C": "Galactosemia is caused by excess glucagon, while lactose intolerance is caused by excess insulin",
+        "D": "Galactosemia only affects the digestion of sucrose, while lactose intolerance only affects fructose digestion"
+      },
+      "correct_answer": "B",
+      "explanation": "These are two distinct conditions affecting different steps in galactose/lactose metabolism. Lactose intolerance is a lactase deficiency that prevents breaking the glycosidic bond in lactose (a digestive-level problem). Galactosemia is a genetic disorder where enzymes needed to further convert free galactose into a phosphorylated glucose molecule are absent, causing galactose to build up in the body (a metabolic-level problem occurring after digestion).",
+      "choice_explanations": {
+        "A": "These are distinct conditions affecting different enzymes and different steps of galactose handling in the body, not the same condition.",
+        "B": "Correct. This distinction -- digestive bond-breaking (lactase) vs. downstream metabolic conversion enzymes -- is exactly what the lecture described.",
+        "C": "Neither condition was described as being caused by hormone imbalances; both are enzyme deficiencies related to specific sugar processing steps.",
+        "D": "Neither condition involves sucrose or fructose; both specifically involve galactose and lactose metabolism."
+      }
+    },
+    {
+      "question_id": "CARB036",
+      "topic": "Disaccharides",
+      "subtopic": "Sucrose",
+      "concept": "Sucrose composition and biological source",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Sucrose",
+      "question": "Which statement about sucrose is accurate based on the lecture?",
+      "choices": {
+        "A": "Sucrose is synthesized by animals as an energy storage molecule",
+        "B": "Sucrose is formed by linking alpha-D-glucose to beta-D-fructose via an alpha-1,beta-2 linkage",
+        "C": "Sucrose gives a strong positive result on the Benedict's test",
+        "D": "Sucrose is formed by linking two molecules of glucose"
+      },
+      "correct_answer": "B",
+      "explanation": "Sucrose forms specifically from alpha-D-glucose linked to beta-D-fructose through an alpha-1,beta-2 glycosidic bond -- it is important that the specific anomeric forms (alpha for glucose, beta for fructose) are correct, as noted in lecture.",
+      "choice_explanations": {
+        "A": "Animals cannot synthesize sucrose at all -- it must be obtained through diet, as explicitly stated in lecture; this is the opposite of the true statement.",
+        "B": "Correct. This is the precise composition and linkage described for sucrose.",
+        "C": "Sucrose is a non-reducing sugar and therefore gives a NEGATIVE Benedict's test, not a positive one.",
+        "D": "Sucrose is made of glucose AND fructose, not two glucose molecules (that combination describes maltose)."
+      }
+    },
+    {
+      "question_id": "CARB037",
+      "topic": "Polysaccharides",
+      "subtopic": "Homo vs heteropolysaccharides",
+      "concept": "Classification by monomer diversity",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "16.7 Polysaccharides",
+      "question": "A polysaccharide composed entirely of glucose units linked together would be classified as a:",
+      "choices": {
+        "A": "Heteropolysaccharide",
+        "B": "Homopolysaccharide",
+        "C": "Disaccharide",
+        "D": "Oligosaccharide"
+      },
+      "correct_answer": "B",
+      "explanation": "A polysaccharide made up of all identical monosaccharide units (like all glucose) is called a homopolysaccharide. 'Hetero' means different, so a heteropolysaccharide would contain two or more different types of monosaccharides.",
+      "choice_explanations": {
+        "A": "Heteropolysaccharide describes a chain made of two or more DIFFERENT monosaccharide types, not a uniform glucose chain.",
+        "B": "Correct. 'Homo' means same, matching a chain made entirely of one monosaccharide type (glucose).",
+        "C": "A disaccharide contains only two monosaccharide units total, not a long polymer chain.",
+        "D": "An oligosaccharide contains only 3-10 units, not a long polysaccharide chain like starch, glycogen, or cellulose."
+      }
+    },
+    {
+      "question_id": "CARB038",
+      "topic": "Polysaccharides",
+      "subtopic": "Amylose structure",
+      "concept": "Amylose linkage pattern and shape",
+      "difficulty": "medium",
+      "cognitive_level": "recall",
+      "source_slide": "16.7 Polysaccharides / Comparison of Amylose to Amylopectin",
+      "question": "Amylose, which makes up about 80% of plant starch, is characterized by which structural features?",
+      "choices": {
+        "A": "A branched structure with alpha-1,4 and alpha-1,6 linkages",
+        "B": "A linear structure with only alpha-1,4 linkages that forms a helical shape in solution",
+        "C": "A linear structure with only beta-1,4 linkages",
+        "D": "A highly branched structure identical to glycogen"
+      },
+      "correct_answer": "B",
+      "explanation": "Amylose is a straight, unbranched chain of glucose units connected exclusively by alpha-1,4 linkages. Though it would be a straight chain if stretched out, intermolecular forces cause it to naturally coil into a helical configuration in solution.",
+      "choice_explanations": {
+        "A": "This describes amylopectin, which has BOTH alpha-1,4 and alpha-1,6 (branching) linkages -- amylose has no branching.",
+        "B": "Correct. Amylose is exclusively alpha-1,4 linked and linear, though it coils into a helix due to intermolecular forces.",
+        "C": "Beta-1,4 linkages describe cellulose, not amylose; amylose uses alpha linkages, which is why it's digestible while cellulose is not.",
+        "D": "Amylose is the LEAST branched starch component (unbranched, in fact); glycogen is the most highly branched of all three polysaccharides discussed."
+      }
+    },
+    {
+      "question_id": "CARB039",
+      "topic": "Polysaccharides",
+      "subtopic": "Amylopectin branching",
+      "concept": "Branch point linkage type",
+      "difficulty": "medium",
+      "cognitive_level": "recall",
+      "source_slide": "Comparison of Amylose to Amylopectin",
+      "question": "In amylopectin, branch points occur when a glucose unit forms an additional bond through which type of linkage?",
+      "choices": {
+        "A": "Alpha-1,2 linkage",
+        "B": "Beta-1,4 linkage",
+        "C": "Alpha-1,6 linkage",
+        "D": "Beta-1,6 linkage"
+      },
+      "correct_answer": "C",
+      "explanation": "Amylopectin's main chain is connected via alpha-1,4 linkages (like amylose), but at branch points, an additional glucose attaches via an alpha-1,6 linkage, using the hydroxyl group on carbon 6.",
+      "choice_explanations": {
+        "A": "Alpha-1,2 linkages are not used in amylopectin's branching; this linkage type appears in sucrose's unique glucose-fructose bond instead.",
+        "B": "Beta-1,4 linkages describe cellulose's backbone structure, not amylopectin's branch points, and amylopectin uses alpha linkages throughout.",
+        "C": "Correct. The alpha-1,6 linkage at carbon 6 is specifically what creates branch points in amylopectin (and similarly in glycogen).",
+        "D": "While carbon 6 is correctly identified as the branch site, the linkage is alpha (not beta) since amylopectin is derived from alpha-linked glucose."
+      }
+    },
+    {
+      "question_id": "CARB040",
+      "topic": "Polysaccharides",
+      "subtopic": "Glycogen vs amylopectin",
+      "concept": "Comparing animal and plant storage polysaccharides",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Glycogen and Amylopectin Structures",
+      "question": "How does glycogen structurally compare to amylopectin?",
+      "choices": {
+        "A": "Glycogen has no branching at all, unlike amylopectin",
+        "B": "Glycogen is structurally identical to amylopectin but is only found in plants",
+        "C": "Glycogen is similar to amylopectin but branches more frequently, creating a more densely branched structure",
+        "D": "Glycogen uses beta-1,4 linkages while amylopectin uses alpha-1,4 linkages"
+      },
+      "correct_answer": "C",
+      "explanation": "Glycogen, the animal storage form of glucose, closely resembles amylopectin in that both have alpha-1,4 chains with alpha-1,6 branch points. However, glycogen branches more frequently, resulting in a more compact, densely branched structure compared to amylopectin's wider spacing between branches.",
+      "choice_explanations": {
+        "A": "Glycogen is actually MORE branched than amylopectin, not unbranched -- this is the opposite of the correct comparison.",
+        "B": "Glycogen is found in animals (stored in liver and muscle cells), not plants; amylopectin is the plant-based analog.",
+        "C": "Correct. This matches the lecture's description and the visual comparison of branch frequency and spacing between the two molecules.",
+        "D": "Both glycogen and amylopectin use alpha-1,4 (with alpha-1,6 branches) linkages; beta-1,4 linkages are specific to cellulose, not either of these storage polysaccharides."
+      }
+    },
+    {
+      "question_id": "CARB041",
+      "topic": "Polysaccharides",
+      "subtopic": "Glycogen storage sites",
+      "concept": "Location of glycogen storage in the body",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Glycogen",
+      "question": "In the human body, glycogen is primarily stored in which two locations?",
+      "choices": {
+        "A": "Lungs and kidneys",
+        "B": "Liver and muscle cells",
+        "C": "Brain and pancreas",
+        "D": "Skin and adipose tissue"
+      },
+      "correct_answer": "B",
+      "explanation": "The lecture specifies that humans store glucose in the form of glycogen primarily in the liver and muscle cells.",
+      "choice_explanations": {
+        "A": "Lungs and kidneys were not mentioned as glycogen storage sites in the lecture.",
+        "B": "Correct. Liver and muscle cells are explicitly named as the storage locations for glycogen.",
+        "C": "Brain and pancreas were not identified as glycogen storage sites in this lecture.",
+        "D": "Skin and adipose tissue store other molecules (like fat in adipose tissue) but were not described as glycogen storage sites."
+      }
+    },
+    {
+      "question_id": "CARB042",
+      "topic": "Polysaccharides",
+      "subtopic": "Cellulose",
+      "concept": "Cellulose structure and linkage",
+      "difficulty": "easy",
+      "cognitive_level": "recall",
+      "source_slide": "Cellulose",
+      "question": "Cellulose is structurally similar to amylose but differs in which key way?",
+      "choices": {
+        "A": "Cellulose is made of fructose units instead of glucose units",
+        "B": "Cellulose has extensive alpha-1,6 branching, while amylose does not",
+        "C": "Cellulose uses beta-1,4 linkages instead of amylose's alpha-1,4 linkages",
+        "D": "Cellulose is a disaccharide, while amylose is a true polysaccharide"
+      },
+      "correct_answer": "C",
+      "explanation": "Cellulose closely resembles amylose in that both are linear glucose polymers, but cellulose is connected through beta-1,4 linkages instead of amylose's alpha-1,4 linkages. This single difference in bond geometry has enormous biological consequences, since human digestive enzymes cannot break beta-1,4 bonds.",
+      "choice_explanations": {
+        "A": "Cellulose, like amylose, is made entirely of glucose units -- both are homopolysaccharides of glucose, not fructose.",
+        "B": "Cellulose is actually a LINEAR homopolymer with no branching, similar in linearity to amylose; branching is a feature of amylopectin and glycogen, not cellulose.",
+        "C": "Correct. This beta-1,4 vs alpha-1,4 distinction is exactly what the lecture emphasized as the key structural difference.",
+        "D": "Both cellulose and amylose are true polysaccharides (long chains of many linked monosaccharides), not disaccharides."
+      }
+    },
+    {
+      "question_id": "CARB043",
+      "topic": "Polysaccharides",
+      "subtopic": "Digestibility",
+      "concept": "Human enzyme specificity for glycosidic bonds",
+      "difficulty": "medium",
+      "cognitive_level": "understanding",
+      "source_slide": "Cellulose",
+      "question": "Why are humans able to digest starch but unable to digest cellulose, even though both are polymers of glucose?",
+      "choices": {
+        "A": "Starch is soluble in water while cellulose is completely insoluble",
+        "B": "Human digestive enzymes are specific to alpha-glycosidic linkages and cannot cleave the beta-glycosidic linkages found in cellulose",
+        "C": "Cellulose contains fructose units that humans cannot metabolize",
+        "D": "Starch has fewer total glucose units than cellulose, making it easier to break down"
+      },
+      "correct_answer": "B",
+      "explanation": "The professor explained that human digestive enzymes are shaped to recognize and cleave alpha-linkages (as in starch's alpha-1,4 and alpha-1,6 bonds) but cannot act on beta-linkages (as in cellulose's beta-1,4 bonds). This is why starch is digestible while cellulose passes through as indigestible dietary fiber, even though ruminant bacteria (like those in cows) do have enzymes capable of breaking beta-linkages.",
+      "choice_explanations": {
+        "A": "Solubility was not the mechanism described for digestibility differences; the actual reason is enzyme specificity for bond geometry (alpha vs. beta).",
+        "B": "Correct. This enzyme specificity for alpha- versus beta-linkages is precisely the mechanism the professor described for the starch/cellulose digestibility difference.",
+        "C": "Cellulose is made entirely of glucose, just like starch -- it does not contain fructose units.",
+        "D": "Total unit count is not the limiting factor; the specific bond geometry (alpha vs beta) determines whether human enzymes can act on the polymer, regardless of chain length."
+      }
+    },
+    {
+      "question_id": "CARB044",
+      "topic": "Polysaccharides",
+      "subtopic": "Cellulose digestion in ruminants",
+      "concept": "Bacterial digestion of cellulose",
+      "difficulty": "medium",
+      "cognitive_level": "application",
+      "source_slide": "Cellulose",
+      "question": "Cows are able to extract nutritional value from eating grass, which is rich in cellulose. What explains this ability, given that mammalian digestive enzymes cannot break beta-1,4 linkages?",
+      "choices": {
+        "A": "Cows possess a unique digestive enzyme of their own that mimics human amylase",
+        "B": "Bacteria in the cow's digestive system possess enzymes capable of breaking the beta-1,4 linkages in cellulose",
+        "C": "Cows convert cellulose into starch before digestion begins",
+        "D": "Grass does not actually contain cellulose, only amylose"
+      },
+      "correct_answer": "B",
+      "explanation": "As explained in lecture, cows (and other ruminants) rely on symbiotic bacteria living in their digestive systems that possess the necessary enzymes to hydrolyze the beta-1,4 linkages in cellulose, allowing the animal to indirectly access the glucose stored within grass fiber.",
+      "choice_explanations": {
+        "A": "Cows themselves lack an enzyme for beta-1,4 linkages, just like humans; the digestion is accomplished by symbiotic bacteria, not the cow's own enzymes.",
+        "B": "Correct. This bacterial symbiosis is exactly the mechanism described in lecture for how ruminants digest cellulose-rich plant material.",
+        "C": "There is no conversion step from cellulose to starch; the bacteria directly hydrolyze the beta-1,4 bonds in cellulose itself.",
+        "D": "Grass fiber is explicitly rich in cellulose (a structural plant polymer), not amylose (a storage polymer); this claim contradicts basic plant biochemistry."
+      }
+    },
+    {
+      "question_id": "CARB045",
+      "topic": "Integration",
+      "subtopic": "Comparing polysaccharides",
+      "concept": "Multi-concept comparison of starch, glycogen, and cellulose",
+      "difficulty": "hard",
+      "cognitive_level": "integration",
+      "source_slide": "Multiple slides: 16.7 Polysaccharides, Glycogen, Cellulose",
+      "question": "A researcher isolates three unknown glucose homopolymers: Polymer X is linear and digestible by human enzymes; Polymer Y is highly branched and found only in animal liver/muscle tissue; Polymer Z is linear but completely resistant to human digestive enzymes. Which polymers correspond to X, Y, and Z respectively?",
+      "choices": {
+        "A": "X = cellulose, Y = amylopectin, Z = glycogen",
+        "B": "X = amylose, Y = glycogen, Z = cellulose",
+        "C": "X = glycogen, Y = cellulose, Z = amylose",
+        "D": "X = amylopectin, Y = amylose, Z = glycogen"
+      },
+      "correct_answer": "B",
+      "explanation": "Polymer X (linear, digestible) matches amylose, which is a straight alpha-1,4-linked chain that human amylase can break down. Polymer Y (highly branched, animal-specific) matches glycogen, the densely branched glucose storage polymer found in liver and muscle. Polymer Z (linear, indigestible) matches cellulose, whose beta-1,4 linkages resist human digestive enzymes despite its linear structure similar to amylose.",
+      "choice_explanations": {
+        "A": "Cellulose is indigestible, not digestible, so it cannot be Polymer X; and glycogen (not amylopectin) is the animal-specific storage polymer for Polymer Y.",
+        "B": "Correct. Each polymer's properties (linear/digestible, branched/animal-specific, linear/indigestible) precisely match amylose, glycogen, and cellulose respectively.",
+        "C": "Glycogen is branched, not linear, so it cannot be Polymer X; and cellulose is not found specifically in animal liver/muscle tissue like Polymer Y describes.",
+        "D": "Amylopectin is branched and found in plants (not animal-specific), so it doesn't fit Polymer X's 'linear, digestible' description; amylose is not highly branched or animal-specific as Polymer Y requires."
+      }
+    },
+    {
+      "question_id": "CARB046",
+      "topic": "Integration",
+      "subtopic": "Glycosidic bond consequences",
+      "concept": "Predicting digestibility from bond type",
+      "difficulty": "hard",
+      "cognitive_level": "application",
+      "source_slide": "Multiple slides: Reducing Sugars, Cellulose, Sucrose",
+      "question": "A newly discovered plant disaccharide is found to be non-reducing and contains a beta-1,2 glycosidic linkage between two hemiacetal (anomeric) carbons. Based on the principles from this lecture, what can be inferred?",
+      "choices": {
+        "A": "The disaccharide is definitely digestible by humans because it is small",
+        "B": "The disaccharide's non-reducing property indicates both anomeric carbons are tied up in the bond, similar to the underlying reason sucrose is non-reducing",
+        "C": "The disaccharide must be identical to lactose since both involve a 1,2 numbering",
+        "D": "Being non-reducing means the molecule cannot be hydrolyzed under any conditions"
+      },
+      "correct_answer": "B",
+      "explanation": "The key inference here is about the STRUCTURAL LOGIC behind non-reducing sugars: just as sucrose is non-reducing because its glycosidic bond consumes both monosaccharides' anomeric hydroxyls, any disaccharide described as non-reducing with a bond between two anomeric carbons follows the same underlying principle -- no free hemiacetal OH remains to reduce Benedict's reagent.",
+      "choice_explanations": {
+        "A": "Digestibility depends on whether the linkage is alpha or beta and whether the correct human enzyme exists for it, not simply on molecular size; small size alone does not guarantee digestibility (as seen with cellobiose, cellulose's repeating beta-linked disaccharide, which is not digestible).",
+        "B": "Correct. This applies the general principle (both anomeric carbons consumed = non-reducing) learned from sucrose to a new hypothetical scenario, testing genuine conceptual transfer rather than memorized facts.",
+        "C": "Lactose is a beta-1,4 linkage between galactose C1 and glucose C4 (only one anomeric carbon involved, since glucose's C4 is not anomeric), which is structurally very different from a 1,2 linkage between two anomeric carbons; sharing a '2' in the numbering does not mean the molecules are identical.",
+        "D": "Non-reducing simply means no free anomeric OH is available for the Benedict's reaction; the glycosidic bond can still be broken by hydrolysis (e.g., with acid or the appropriate enzyme), just as sucrose can be hydrolyzed into glucose and fructose."
+      }
+    },
+    {
+      "question_id": "CARB047",
+      "topic": "Integration",
+      "subtopic": "Stereochemistry and biological specificity",
+      "concept": "Connecting anomeric configuration to enzyme/digestibility outcomes",
+      "difficulty": "hard",
+      "cognitive_level": "integration",
+      "source_slide": "Multiple slides: Cyclic Form of Glucose, Cellulose, Maltose/Lactose",
+      "question": "Considering everything covered about anomeric configuration (alpha vs. beta) and enzyme specificity, which statement best explains why starch (alpha-1,4 linked glucose) and cellulose (beta-1,4 linked glucose) have such different nutritional roles despite being made of the identical monosaccharide?",
+      "choices": {
+        "A": "Starch contains more total carbon atoms than cellulose",
+        "B": "The three-dimensional shape created by alpha- versus beta-linkages determines which digestive enzymes can physically bind and cleave the polymer, so identical monomers can yield biologically very different outcomes",
+        "C": "Cellulose is not actually made of glucose, unlike starch",
+        "D": "Starch is synthesized by animals while cellulose is synthesized by plants, explaining the difference"
+      },
+      "correct_answer": "B",
+      "explanation": "This question integrates stereochemistry (the alpha/beta anomeric distinction from ring closure) with enzyme specificity and nutritional biochemistry. Even though both starch and cellulose are homopolysaccharides of glucose, the different anomeric linkage geometry (alpha-1,4 vs beta-1,4) creates different overall three-dimensional shapes (helical for amylose vs. extended/fibrous for cellulose), which determines whether human digestive enzymes -- shaped to recognize a specific bond geometry -- can bind and hydrolyze the polymer.",
+      "choice_explanations": {
+        "A": "Both starch and cellulose are polymers built from the same glucose monomer with the same per-unit carbon content; total carbon atom count is not what differentiates their digestibility.",
+        "B": "Correct. This response integrates the anomeric/stereochemistry concepts with enzyme specificity and structural biology to explain the digestibility difference at a mechanistic level.",
+        "C": "Cellulose is explicitly a homopolysaccharide of glucose, just like amylose in starch; the monomer identity is the same, only the linkage geometry differs.",
+        "D": "Both starch and cellulose are plant-produced polysaccharides (starch is a plant storage molecule, cellulose is a plant structural molecule); glycogen, not starch, is the animal-synthesized storage polysaccharide."
+      }
+    },
+    {
+      "question_id": "CARB048",
+      "topic": "Monosaccharide Naming",
+      "subtopic": "Ketose carbon counting",
+      "concept": "Numbering convention differences between aldoses and ketoses",
+      "difficulty": "hard",
+      "cognitive_level": "understanding",
+      "source_slide": "Cyclic Form of Glucose / Fructose",
+      "question": "When numbering the carbons of a ketose (like fructose) to determine its D or L configuration, which carbon is treated as carbon 1?",
+      "choices": {
+        "A": "The carbonyl carbon itself, just as with an aldose",
+        "B": "The actual first carbon of the chain, since the carbonyl in a ketose is NOT the terminal carbon",
+        "C": "The anomeric carbon after ring closure",
+        "D": "Carbon numbering does not apply to ketoses"
+      },
+      "correct_answer": "B",
+      "explanation": "The professor specifically clarified that for aldoses, the carbonyl carbon IS carbon 1 (since the aldehyde is terminal). But for ketoses, the carbonyl group is internal (typically at carbon 2), so the actual terminal CH2OH carbon is counted as carbon 1, not the carbonyl carbon.",
+      "choice_explanations": {
+        "A": "This rule applies to aldoses, where the carbonyl carbon is terminal and is carbon 1; but a ketose's carbonyl is NOT the terminal carbon, so this rule does not transfer directly.",
+        "B": "Correct. This exact distinction was explicitly called out in lecture as something to keep in mind when numbering ketose carbons.",
+        "C": "Numbering for D/L determination happens on the open-chain form before ring closure; the anomeric carbon designation (alpha/beta) is a separate, later step after cyclization.",
+        "D": "Ketoses absolutely have numbered carbons; the numbering convention differs slightly from aldoses in terms of which carbon is called C1, but numbering still applies."
+      }
+    },
+    {
+      "question_id": "CARB049",
+      "topic": "Reducing Sugars",
+      "subtopic": "Predicting reducing sugar status",
+      "concept": "Applying the reducing sugar rule to disaccharides",
+      "difficulty": "medium",
+      "cognitive_level": "application",
+      "source_slide": "Reducing Sugars / Maltose / Lactose / Sucrose",
+      "question": "Based on the pattern established for maltose, lactose, and sucrose, which of the following would you predict to be a reducing sugar?",
+      "choices": {
+        "A": "A disaccharide formed by linking the anomeric carbon of glucose to the anomeric carbon of another sugar",
+        "B": "Any monosaccharide, since it always retains a free hemiacetal group at its anomeric carbon in solution",
+        "C": "Sucrose, because it is the most common disaccharide in the diet",
+        "D": "Any polysaccharide, regardless of chain length or branching"
+      },
+      "correct_answer": "B",
+      "explanation": "The lecture established that all monosaccharides are reducing sugars because, in their cyclic form, they retain a free hemiacetal (anomeric) hydroxyl group that has not been consumed by a glycosidic bond -- this is unlike disaccharides such as sucrose where both anomeric OHs are used in bonding.",
+      "choice_explanations": {
+        "A": "Linking two anomeric carbons together (as in sucrose) uses up BOTH free hemiacetal groups, resulting in a NON-reducing sugar, not a reducing one -- this is the opposite of the correct answer.",
+        "B": "Correct. Since a monosaccharide never forms a glycosidic bond with itself, its one anomeric carbon almost always remains free as a hemiacetal, making it reducing.",
+        "C": "Sucrose was explicitly identified as the exception -- a NON-reducing disaccharide -- due to both anomeric carbons being consumed in its unique 1,2-linkage.",
+        "D": "While the reducing end of a polysaccharide chain can technically be reducing, this isn't a blanket rule for 'any polysaccharide' -- and this wasn't the emphasis of the lecture, which focused on mono- and disaccharides for this concept."
+      }
+    },
+    {
+      "question_id": "CARB050",
+      "topic": "Stereochemistry",
+      "subtopic": "Chiral carbon identification in glucose",
+      "concept": "Counting chiral centers",
+      "difficulty": "medium",
+      "cognitive_level": "application",
+      "source_slide": "Fischer Projections of Monosaccharides",
+      "question": "The professor noted that D-glucose has four chiral carbons, and explained that the carbon nearest the CH2OH end (carbon 5, prior to ring closure) is NOT counted among them in some structures shown. Why would a specific carbon fail to qualify as chiral even though it's part of the sugar's backbone?",
+      "choices": {
+        "A": "It is bonded to two identical hydrogen atoms, meaning it lacks four unique substituents",
+        "B": "It is located too far from the carbonyl group to be considered",
+        "C": "It is the anomeric carbon and is therefore excluded by definition",
+        "D": "All backbone carbons in glucose are automatically chiral regardless of substituents"
+      },
+      "correct_answer": "A",
+      "explanation": "The professor specifically explained that the terminal carbon (bonded to a CH2OH group, an OH, and two hydrogens in some structural depictions) is not chiral because it is bonded to two identical hydrogen atoms, violating the requirement of four unique substituents needed for chirality.",
+      "choice_explanations": {
+        "A": "Correct. Having two identical groups (two H atoms) on the same carbon automatically disqualifies it from being chiral, exactly as the professor explained.",
+        "B": "Distance from the carbonyl group is not the determining factor for chirality; what matters is whether the carbon has four unique substituents, regardless of position in the chain.",
+        "C": "This carbon is not the anomeric carbon (which is C1, formed during ring closure); it's simply a backbone carbon with two identical hydrogen substituents.",
+        "D": "Not all backbone carbons in glucose are automatically chiral -- this is exactly why glucose has only 4 chiral carbons out of its 6 total carbons, with two carbons (including this one) failing to qualify."
+      }
+    }
+  ]
+}
